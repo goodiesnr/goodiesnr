@@ -39,7 +39,7 @@ export default function App() {
         </div>
 
         <div className="social-buttons">
-          <a href="mailto:your-email@example.com" className="btn-s" aria-label="Send Email">
+          <a href="mailto:goodieishekwene@gmail.com" className="btn-s" aria-label="Send Email">
             <i className="far fa-envelope"></i>
           </a>
           <a href="https://github.com/goodiesnr" target="_blank" rel="noreferrer" className="btn-s">
@@ -67,7 +67,7 @@ export default function App() {
           <p className="foottext">Let's build something meaningful.</p>
           <p>Open to remote work, product collaboration and ambitious ideas.</p>
           <div className="social-buttons">
-            <a href="mailto:your-email@example.com" className="btn-s" aria-label="Send Email">
+            <a href="mailto:goodieishekwene@gmail.com" className="btn-s" aria-label="Send Email">
               <i className="far fa-envelope"></i>
             </a>
             <a href="https://github.com/goodiesnr" target="_blank" rel="noreferrer" className="btn-s">
