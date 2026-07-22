@@ -4,7 +4,6 @@ export default function SkillsCarousel() {
     "MONGODB", "GOLANG", "GIT/GITHUB", "WORDPRESS"
   ];
 
-  // Repeat items to match seamless infinite loop marquee
   const trackSkills = [...skills, ...skills, ...skills];
 
   return (

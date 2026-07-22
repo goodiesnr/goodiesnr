@@ -235,3 +235,113 @@ i {
   background-color: #1f1f1f;
   transform: scale(1.05);
 }
+
+.tictactoe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.game-status p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.status-win {
+  color: #4ade80;
+}
+
+.status-loss {
+  color: #f87171;
+}
+
+.status-draw {
+  color: #facc15;
+}
+
+.tic-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.tic-square {
+  width: 100px;
+  height: 100px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.tic-square:hover:not(:disabled) {
+  background-color: #2a2a2a;
+  border-color: #666;
+}
+
+.tic-square:disabled {
+  cursor: not-allowed;
+}
+
+.tic-square.x {
+  color: #60a5fa;
+}
+
+.tic-square.o {
+  color: #f87171;
+}
+
+.btn-restart {
+  padding: 0.6rem 1.4rem;
+  background-color: transparent;
+  color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-restart:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.difficulty-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.select-difficulty {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.select-difficulty:focus {
+  border-color: #ccc;
+}
+
+.linethrough {
+  border-top: 1px solid #333;
+  margin: 20px 0;
+}
