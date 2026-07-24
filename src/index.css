@@ -313,8 +313,8 @@ i {
 }
 
 .btn-restart:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #333;
+  color: #ccc;
 }
 
 .difficulty-picker {
@@ -338,10 +338,21 @@ i {
 }
 
 .select-difficulty:focus {
-  border-color: #ccc;
+  border-color: #aaa;
 }
 
 .linethrough {
   border-top: 1px solid #333;
   margin: 20px 0;
+}
+
+.project_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project_name {
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease;
 }

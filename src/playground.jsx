@@ -150,7 +150,7 @@ export default function Playground() {
         <div className="intro">
           <h2 className="animate-name">PLAYGROUND</h2>
           <p className="introp">LABS & EXPERIMENTS</p>
-          <p>A collection of raw ideas, UI explorations, and technical prototypes.</p>
+          <p>A collection of my ideas, tech explorations, and prototypes I guess.</p>
         </div>
 
         {/* Tic-Tac-Toe Game */}
@@ -167,9 +167,9 @@ export default function Playground() {
                 onChange={(e) => { setDifficulty(e.target.value); resetGame(); }}
                 className="select-difficulty"
               >
-                <option value="easy">Easy (Casual)</option>
-                <option value="medium">Medium (Tactical)</option>
-                <option value="unbeatable">Unbeatable (Minimax AI)</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="unbeatable">Unbeatable</option>
               </select>
             </div>
 
