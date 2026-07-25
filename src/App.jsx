@@ -5,13 +5,6 @@ import SkillsCarousel from "./components/skillscarousel";
 export default function App() {
   const projects = [
     {
-      title: "Zenpostr",
-      domain: "ZENPOSTR.COM",
-      link: "https://zenpostr.com",
-      description:
-        "A content scheduler and management tool that allows cross-posting across social media platforms.",
-    },
-    {
       title: "Formrush",
       domain: "DOCBASIN-F.VERCEL.APP",
       link: "https://docbasin-f.vercel.app",
@@ -19,17 +12,17 @@ export default function App() {
         "A backend-as-a-service that lets users handle HTML form submissions by just pointing their form's action at their endpoint.",
     },
     {
-      title: "QRspike",
-      domain: "QRSPIKE.COM",
-      link: "https://qrspike.com",
+      title: "QRanytin",
+      domain: "GITHUB.COM/GOODIESNR/QRANYTINBACKEND",
+      link: "https://github.com/goodiesnr/qranytinbackend",
       description: "A QRcode generator tool.",
     },
     {
-      title: "GJS-Auth",
-      domain: "GJS-AUTH.IO",
-      link: "https://gjs-auth.io",
+      title: "Tic-Tac-Toe AI",
+      domain: "GOODIESNR.VERCEL.APP",
+      link: "https://goodiesnr.vercel.app/playground",
       description:
-        "An open-source NodeJS package for user authentication and authorization.",
+        "A Tic-Tac-Toe game with an AI opponent that can be set to different difficulty levels.",
     },
   ];
 

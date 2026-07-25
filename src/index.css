@@ -114,10 +114,15 @@ ul li {
 }
 
 .project_name:hover {
-  background-color: #161616;
+  background-color: #121212;
   transition: padding 0.3s ease, background-color 0.3s ease;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.project_name:hover h3 {
+  color: #d7d9db;
+  transition: color 0.3s ease;
 }
 
 .project_title {
