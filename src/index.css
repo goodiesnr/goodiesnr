@@ -232,7 +232,6 @@ i {
   padding: 12px;
   text-decoration: none;
   border-radius: 100px;
-  border: 0.2px solid rgb(44, 44, 44);
   transition: background 0.3s, transform 0.3s;
 }
 
