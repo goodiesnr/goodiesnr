@@ -101,6 +101,7 @@ ul li {
   font-size: 0.7rem;
   font-weight: 200;
   background-color: transparent;
+  margin-bottom: 10px;
 }
 
 .project_name h3,
@@ -110,7 +111,7 @@ ul li {
 
 .project_name {
   border-bottom: 1px solid #333;
-  padding: 15px 5px;
+  padding: 30px 5px;
 }
 
 .project_name:hover {
