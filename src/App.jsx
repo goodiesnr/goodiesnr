@@ -19,8 +19,8 @@ export default function App() {
     },
     {
       title: "Gr8reviews",
-      domain: "GITHUB.COM/GOODIESNR/GR8REVIEW_BACKEND",
-      link: "https://github.com/goodiesnr/gr8review_backend",
+      domain: "GR8REVIEW.VERCEL.APP",
+      link: "https://gr8review.vercel.app/",
       description: "A lightweight rating/review platform.",
     },
     {
