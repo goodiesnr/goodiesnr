@@ -5,7 +5,7 @@ import SkillsCarousel from "./components/skillscarousel";
 export default function App() {
   const projects = [
     {
-      title: "Formrush",
+      title: "Contactbin",
       domain: "DOCBASIN-F.VERCEL.APP",
       link: "https://docbasin-f.vercel.app",
       description:
@@ -21,7 +21,7 @@ export default function App() {
       title: "Gr8reviews",
       domain: "GR8REVIEW.VERCEL.APP",
       link: "https://gr8review.vercel.app/",
-      description: "A lightweight rating/review platform.",
+      description: "A lightweight rating and review platform.",
     },
     {
       title: "Aplus Painting",
