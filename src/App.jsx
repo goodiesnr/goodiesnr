@@ -9,7 +9,7 @@ export default function App() {
       domain: "DOCBASIN-F.VERCEL.APP",
       link: "https://docbasin-f.vercel.app",
       description:
-        "A backend-as-a-service that lets users handle HTML form submissions by just pointing their form's action at their endpoint.",
+        "A backend-as-a-service that lets users handle HTML form submissions.",
     },
     {
       title: "QRanytin",
