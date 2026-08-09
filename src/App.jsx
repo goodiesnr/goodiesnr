@@ -13,8 +13,8 @@ export default function App() {
     },
     {
       title: "QRanytin",
-      domain: "GITHUB.COM/GOODIESNR/QRANYTINBACKEND",
-      link: "https://github.com/goodiesnr/qranytinbackend",
+      domain: "QRANYTIN.VERCEL.APP",
+      link: "https://qranytin.vercel.app",
       description: "A QRcode generator tool.",
     },
     {
