@@ -29,7 +29,7 @@ export default function App() {
       link: "https://apluspainting.vercel.app",
     },
     {
-      title: "KOI NFT",
+      title: "Koi NFT",
       domain: "KOINFT.VERCEL.APP",
       link: "https://koinft.vercel.app",
       description:
