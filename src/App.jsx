@@ -27,14 +27,13 @@ export default function App() {
       title: "Aplus Painting",
       domain: "APLUSPAINTING.VERCEL.APP",
       link: "https://apluspainting.vercel.app",
-      "A simple brochure website for a painting company.",
+      description: "A simple brochure website for a painting company.",
     },
     {
       title: "Koi NFT",
       domain: "KOINFT.VERCEL.APP",
       link: "https://koinft.vercel.app",
-      description:
-        "A simple brochure website for an NFT collection.",
+      description: "A simple brochure website for an NFT collection.",
     },
     {
       title: "Tic-Tac-Toe AI",
