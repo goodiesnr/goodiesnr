@@ -9,7 +9,8 @@
 
 body {
   background-color: #111;
-  padding: 20px;
+  padding: 25px;
+  padding-top: 50px;
 }
 
 .main .intro .animate-name,
@@ -33,13 +34,24 @@ a {
   flex-direction: row;
   justify-content: flex-end;
   position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  z-index: 100;
+  
+  /* 1. Spacing: This replaces width: 100%, transform, and margin hacks */
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  
+  /* 2. Blurred Transparent Background */
+  background-color: rgba(17, 17, 17, 0.65); /* Your #111 color, but 65% solid */
+  backdrop-filter: blur(12px); /* Creates the frosted glass blur behind the div */
+  -webkit-backdrop-filter: blur(12px); /* Required for Safari support */
+  
+  /* 3. Box styling */
   padding: 30px;
   padding-right: 15px;
-  z-index: 100;
+  border: 1px solid rgba(51, 51, 51, 0.8); /* Slightly transparent #333 */
+  border-radius: 1000px;
+  box-sizing: border-box;
 }
 
 .nav ul {
