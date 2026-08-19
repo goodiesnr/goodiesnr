@@ -24,11 +24,16 @@ export default function App() {
       description: "A lightweight rating and review platform.",
     },
     {
-      title: "KOI NFT",
+      title: "Aplus Painting",
+      domain: "APLUSPAINTING.VERCEL.APP",
+      link: "https://apluspainting.vercel.app",
+      description: "A simple brochure website for a painting company.",
+    },
+    {
+      title: "Koi NFT",
       domain: "KOINFT.VERCEL.APP",
       link: "https://koinft.vercel.app",
-      description:
-        "A simple brochure website for an NFT collection.",
+      description: "A simple brochure website for an NFT collection.",
     },
     {
       title: "Tic-Tac-Toe AI",
