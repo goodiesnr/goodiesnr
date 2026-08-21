@@ -30,12 +30,6 @@ export default function App() {
       description: "A simple brochure website for a painting company.",
     },
     {
-      title: "Koi NFT",
-      domain: "KOINFT.VERCEL.APP",
-      link: "https://koinft.vercel.app",
-      description: "A simple brochure website for an NFT collection.",
-    },
-    {
       title: "Tic-Tac-Toe AI",
       domain: "GOODIESNR.VERCEL.APP",
       link: "https://goodiesnr.vercel.app/playground",
