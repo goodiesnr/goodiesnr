@@ -10,7 +10,7 @@
 body {
   background-color: #111;
   padding: 25px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .main .intro .animate-name,
@@ -44,7 +44,7 @@ a {
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
 
-  padding: 15px 25px;
+  padding: 20px 25px;
   padding-right: 15px;
 
   border: 1px solid rgba(255, 255, 255, 0.12);
