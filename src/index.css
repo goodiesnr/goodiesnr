@@ -10,7 +10,9 @@
 body {
   background-color: #111;
   padding: 25px;
-  padding-top: 50px;
+  padding-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .main .intro .animate-name,
@@ -44,11 +46,11 @@ a {
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
 
-  padding: 25px;
+  padding: 20px 25px;
   padding-right: 15px;
 
   border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 1000px;
+  border-radius: 15px;
 
   box-sizing: border-box;
 }
@@ -68,7 +70,7 @@ h2 {
   font-size: 2.5rem;
   color: white;
   margin-bottom: -10px;
-  font-weight: 300;
+  font-weight: 800;
 }
 
 .animate-name {

@@ -1,0 +1,964 @@
+/* ===================== Base overrides ===================== */
+body {
+  background-color: #000;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+* {
+  color: inherit;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  padding: 6px 12px;
+}
+
+.mono-label {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* ===================== Navbar ===================== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  margin: auto;
+
+}
+
+.navbar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-mark {
+  width: 28px;
+  height: 28px;
+  background: #000;
+  color: #fff;
+  font-family: "Spectral", "Poppins";
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-name {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.05rem;
+}
+
+.brand-name .handle {
+  color: #aaa;
+  font-weight: 300;
+  font-size: 0.7rem;
+  margin-left: 4px;
+  font-family: "Spectral", "Poppins";
+}
+
+.nav-links {
+  gap: 24px;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #777;
+}
+
+.nav-links a {
+  margin-left: 15px;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-actions {
+    display: none;
+  }
+
+  .nav-links a {
+    margin-left: 10px;
+  }
+}
+
+.icon-btn {
+  color: #777;
+  padding: 6px;
+  display: inline-flex;
+}
+
+.icon-btn:hover {
+  color: #000;
+}
+
+.icon-btn svg,
+.btn-primary svg,
+.btn-outline svg,
+.btn-white svg,
+.btn-outline-dark svg,
+.top-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
+.btn-primary:hover {
+  background: #333;
+}
+
+/* ===================== Hero ===================== */
+.hero {
+  padding: 48px 24px 64px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+  background-color: white;
+}
+
+.hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 7fr 5fr;
+  }
+}
+
+.hero-title {
+  font-family: "Spectral", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  font-size: 3rem;
+  color: #050505;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}
+
+.hero-title .sub {
+  color: #aaa;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.hero-copy {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+  max-width: 520px;
+  margin-bottom: 24px;
+}
+
+.stack-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.stack-pills span {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  background: #f4f4f4;
+  color: #000;
+  padding: 5px 10px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 22px;
+  border-radius: 1000px;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.btn-ghost {
+  border: 1px solid #ccc;
+  color: #000;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 12px 22px;
+  border-radius: 1000px;
+}
+
+.btn-ghost:hover {
+  border-color: #000;
+}
+
+.portrait-frame {
+  background: #0a0a0a;
+  padding: 8px;
+  border: 1px solid #111;
+}
+
+.portrait-box {
+  aspect-ratio: 4 / 5;
+  background: linear-gradient(to bottom right, #18181b, #000);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portrait-box .monogram {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #27272a;
+}
+
+.portrait-tag {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  color: #fff;
+}
+
+.portrait-tag .mono-label {
+  color: #aaa;
+}
+
+.portrait-tag p {
+  font-size: 0.75rem;
+  color: #ddd;
+}
+
+.availability-card {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.availability-card .name {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.availability-card .role {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #22c55e;
+  margin-right: 5px;
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.status-text {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #15803d;
+}
+
+/* ===================== Marquee ===================== */
+.marquee-section {
+  background: #0a0a0a;
+  padding: 20px 0;
+  padding-bottom: 100px;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.marquee-strip {
+  display: flex;
+  width: 200%;
+  white-space: nowrap;
+  animation: marquee 18s linear infinite;
+}
+
+.marquee-strip:hover {
+  animation-play-state: paused;
+}
+
+.marquee-seq {
+  display: flex;
+  align-items: center;
+  font-family: "Spectral", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: #777;
+}
+
+@media screen and (min-width: 768px) {
+  .marquee-seq {
+    font-size: 2.8rem;
+  }
+}
+
+.marquee-seq .bright {
+  margin: 0 20px;
+  color: #333;
+  font-size: 6rem;
+}
+
+.marquee-seq .dim {
+  margin: 0 20px;
+  color: #333;
+  font-size: 6rem;
+}
+
+.marquee-seq .dim:hover {
+  color: #ddd;
+}
+
+.marquee-seq .bright:hover {
+  color: #ddd;
+}
+
+.marquee-seq .dot {
+  color: #0a0a0a;
+}
+
+/* ===================== Expertise ===================== */
+.expertise-section {
+  background: #0a0a0a;
+  padding: 64px 24px;
+}
+
+.expertise-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.expertise-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .expertise-header {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.expertise-header h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .expertise-header h2 {
+    font-size: 2.75rem;
+  }
+}
+
+.expertise-header .mono-label {
+  color: #999;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.expertise-note {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  color: #999;
+  max-width: 320px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .expertise-note {
+    margin-top: 0;
+  }
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.expertise-card {
+  background: #fff;
+  border: 1px solid #27272a;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expertise-card:hover {
+  border-color: #52525b;
+}
+
+.expertise-index {
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  color: #fff;
+  font-family: "Spectral", "Poppins";
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.expertise-card h3 {
+  font-family: "Inter", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  font-size: 1.15rem;
+  color: #000;
+  margin-bottom: 14px;
+}
+
+.expertise-card p {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+.expertise-card .mono-label {
+  display: block;
+  color: #d4d4d8;
+  margin-bottom: 8px;
+}
+
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.expertise-tags span {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.68rem;
+  background-color: white;
+  border: 1px solid #aaa;
+  color: #111;
+  padding: 4px 8px;
+}
+
+/* ===================== Featured projects ===================== */
+.projects-section {
+  padding: 72px 24px;
+  background: #fff;
+}
+
+.projects-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.projects-header h2 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #050505;
+}
+
+@media screen and (min-width: 640px) {
+  .projects-header h2 {
+    font-size: 3.25rem;
+  }
+}
+
+.projects-header .mono-label {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-header .mono-label {
+    display: block;
+  }
+}
+
+.project-row {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 32px 4px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.project-row:hover {
+  background: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .project-row {
+    grid-template-columns: 40px 4fr 7fr;
+    align-items: start;
+  }
+}
+
+.project-row .index {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.project-row .title-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-row h3 {
+  font-family: "Inter", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  font-size: 1.4rem;
+  color: #050505;
+}
+
+.project-row .title-link:hover h3 {
+  text-decoration: underline;
+}
+
+.project-row .title-link svg {
+  width: 15px;
+  height: 15px;
+  color: #aaa;
+}
+
+.project-row .domain {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-top: 4px;
+}
+
+.project-row .desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* ===================== Why work with me ===================== */
+.why-section {
+  padding: 72px 24px;
+  background: #f1f1f1;
+}
+
+.why-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.why-header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-bottom: 56px;
+}
+
+@media screen and (min-width: 768px) {
+  .why-header {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.why-header h2 {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #050505;
+}
+
+@media screen and (min-width: 640px) {
+  .why-header h2 {
+    font-size: 3.25rem;
+  }
+}
+
+.why-header .mono-label {
+  color: #999;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media screen and (min-width: 640px) {
+  .why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .why-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.why-card {
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  padding: 32px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why-card:hover {
+  border-color: #999;
+}
+
+.why-icon {
+  width: 68px;
+  height: 68px;
+  background: #f4f4f4;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.why-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.why-card h3 {
+  font-family: "Inter", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  font-size: 1.7rem;
+  color: #050505;
+  line-height: 1.3;
+}
+
+.why-card p {
+  font-family: "Spectral", "Poppins";
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* ===================== CTA ===================== */
+.cta-section {
+  background: #000;
+  color: #fff;
+  padding: 88px 24px 0px 24px;
+  display: flex;
+}
+
+.cta-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.cta-eyebrow {
+  display: inline-block;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.cta-title {
+  font-family: "Spectral", "Poppins";
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .cta-title {
+    font-size: 5.5rem;
+  }
+}
+
+.cta-title .fade {
+  color: #71717a;
+}
+
+.cta-title .fade:hover {
+  color: #fff;
+}
+
+.cta-copy {
+  font-size: 1.1rem;
+  color: #a1a1aa;
+  max-width: 560px;
+  margin-bottom: 40px;
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  color: #000;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 28px;
+  border-radius: 999px;
+}
+
+.btn-white:hover {
+  background: #ccc;
+}
+
+.btn-outline-dark {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #3f3f46;
+  color: #d4d4d8;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 28px;
+  border-radius: 999px;
+}
+
+.btn-outline-dark:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+.direct-inbox {
+  margin-top: 48px;
+  padding-top: 30px;
+  border-top: 1px solid #27272a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.72rem;
+  color: #71717a;
+}
+
+.direct-inbox .value {
+  color: #d4d4d8;
+}
+
+.direct-inbox .value:hover {
+  color: #fff;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 0px 32px 32px;
+}
+
+/* ===================== Footer additions ===================== */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: -3px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.top-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.top-link:hover {
+  color: #fff;
+}
+
+.giant-name-wrap {
+  padding-top: 40px;
+  overflow: hidden;
+  text-align: right;
+}
+
+.giant-name {
+  font-family: "Spectral", "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  font-size: 3rem;
+  color: #2a2a2a;
+}
+
+@media screen and (min-width: 640px) {
+  .giant-name {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .giant-name {
+    font-size: 9rem;
+  }
+}
+
+.giant-name:hover {
+  color: #444;
+}
+
+.copyright-row {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Spectral", "Poppins";
+  font-size: 0.68rem;
+  color: #666;
+}
+
+@media screen and (min-width: 640px) {
+  .copyright-row {
+    flex-direction: row;
+  }
+}
