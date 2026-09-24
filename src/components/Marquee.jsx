@@ -1,10 +1,12 @@
 const items = [
-  { text: 'REACT & REACT NATIVE', bright: true },
-  { text: 'NODE.JS & EXPRESS', bright: false },
+  { text: 'REACT', bright: true },
+  { text: 'NODE.JS', bright: false },
   { text: 'GOLANG', bright: true },
   { text: 'MONGODB', bright: false },
-  { text: 'BROCHURE & BUSINESS SITES', bright: true },
+  { text: 'SUPABASE', bright: true },
   { text: 'GIT / GITHUB', bright: false },
+  { text: 'SEO', bright: true },
+  { text: 'WORDPRESS', bright: false },
 ];
 
 function Sequence() {

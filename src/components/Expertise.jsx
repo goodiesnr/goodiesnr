@@ -7,7 +7,7 @@ const cards = [
   {
     title: 'PRODUCT MANAGEMENT',
     desc: 'I take ownership beyond launch guilding user adpotion, resolving live technical issues, and keep application running seamlessly as it scales.',
-    tags: ['Cloud hosting', 'User feedback', 'Error tracking', 'Analytics'],
+    tags: ['Cloud Hosting', 'User Feedback', 'Error Tracking', 'Analytics'],
   },
   {
     title: 'BUSINESS & BROCHURE SITES',
