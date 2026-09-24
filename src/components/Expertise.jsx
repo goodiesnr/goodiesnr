@@ -1,6 +1,6 @@
 const cards = [
   {
-    title: 'PRODUCTS ENGINEERING',
+    title: 'PRODUCT ENGINEERING',
     desc: "I architect and build clean, secure, full-stack applications built to scale effortlessly and handle real-world complexity.",
     tags: ['React', 'Node.js', 'Golang', 'MongoDB', 'Supabase', 'Git/GitHub'],
   },

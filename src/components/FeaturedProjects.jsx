@@ -1,24 +1,26 @@
-import { ArrowUpRightIcon } from './Icons';
+import { ArrowUpRightIcon } from "./Icons";
+import img1 from "../assets/z11.png";
+import img2 from "../assets/z10.png";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const projects = [
   {
-    title: 'Contactbin',
-    domain: 'docbasin-f.vercel.app',
-    link: 'https://docbasin-f.vercel.app',
-    desc: 'A backend-as-a-service that lets users handle HTML form submissions without standing up their own server.',
+    title: "Contactbin",
+    domain: "docbasin-f.vercel.app",
+    link: "https://docbasin-f.vercel.app",
+    desc: "A backend-as-a-service that lets users handle HTML form submissions without standing up their own server.",
   },
   {
-    title: 'QRanytin',
-    domain: 'qranytin.vercel.app',
-    link: 'https://qranytin.vercel.app',
-    desc: 'A QR code generator tool.',
+    title: "QRanytin",
+    domain: "qranytin.vercel.app",
+    link: "https://qranytin.vercel.app",
+    desc: "A QR code generator tool.",
   },
   {
-    title: 'Gr8reviews',
-    domain: 'gr8review.vercel.app',
-    link: 'https://gr8review.vercel.app/',
-    desc: 'A lightweight rating and review platform.',
+    title: "Gr8reviews",
+    domain: "gr8review.vercel.app",
+    link: "https://gr8review.vercel.app/",
+    desc: "A lightweight rating and review platform.",
   },
   /* {
     title: 'Aplus Painting',
@@ -34,6 +36,11 @@ export const projects = [
   }, */
 ];
 
+const images = [
+  { id: 1, src: img1, alt: "roofing websites", link: 'https://apluspainting.vercel.app', },
+  { id: 2, src: img2, alt: "painting websites", link: 'https://apluspainting.vercel.app', },
+];
+
 export default function FeaturedProjects() {
   return (
     <section className="projects-section" id="featured-projects">
@@ -44,9 +51,14 @@ export default function FeaturedProjects() {
 
         {projects.map((p, i) => (
           <article key={p.title} className="project-row">
-            <div className="index">{String(i + 1).padStart(2, '0')}</div>
+            <div className="index">{String(i + 1).padStart(2, "0")}</div>
             <div>
-              <a href={p.link} target="_blank" rel="noreferrer" className="title-link">
+              <a
+                href={p.link}
+                target="_blank"
+                rel="noreferrer"
+                className="title-link"
+              >
                 <h3>{p.title}</h3>
                 <ArrowUpRightIcon />
               </a>
@@ -57,6 +69,21 @@ export default function FeaturedProjects() {
             </div>
           </article>
         ))}
+
+        <div className="gridContainerFP">
+          {images.map((img) => (
+            <div key={img.id} className="gridItemFP">
+              <a
+                href={img.link}
+                target="_blank"
+                rel="noreferrer"
+                className="title-link"
+              >
+              <img src={img.src} alt={img.alt} />
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

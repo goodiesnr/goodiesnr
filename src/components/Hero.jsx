@@ -9,7 +9,7 @@ export default function Hero() {
           <div>
             <h1 className="hero-title">
               GOODIE<br />
-              <span className="sub">DEVELOPER.</span>
+              <span className="sub">SOFTWARE DEVELOPER.</span>
             </h1>
             <p className="hero-copy">
               I try to contribute to society by creating software people actually want &mdash; from fullstack side projects to industry grade mvps to business sites that actually converts.
