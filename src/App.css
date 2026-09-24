@@ -56,8 +56,8 @@ body {
 }
 
 .brand-mark {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   background: #000;
   color: #fff;
   font-family: "Spectral", "Poppins";
@@ -361,7 +361,7 @@ body {
   display: flex;
   width: 200%;
   white-space: nowrap;
-  animation: marquee 18s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee-strip:hover {
@@ -425,6 +425,10 @@ body {
   justify-content: space-between;
   padding-bottom: 20px;
   margin-bottom: 40px;
+}
+
+.expertise-header h2 {
+  margin-top: 11px;
 }
 
 @media screen and (min-width: 768px) {

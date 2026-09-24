@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-inner">
-        <a className="brand" href="/#hero">
+        <a className="brand" href="/">
           <span className="brand-mark">G</span>
         </a>
 

@@ -9,7 +9,7 @@ export default function Footer() {
 
 
       <div className="copyright-row">
-        <p>&copy; 2026 GOODIE. ALL RIGHTS RESERVED.</p>
+        <p>"Make Something People Want".</p>
         <p>@GOODIESNR</p>
       </div>
     </footer>
