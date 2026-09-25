@@ -935,6 +935,15 @@ footer {
   justify-content: space-evenly;
   margin-top: -50px;
   margin-bottom: 150px;
+  min-width: 760px;
+  justify-self: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .socialtext {
+    min-width: 300px;
+  }
 }
 
 .socialtext li {
