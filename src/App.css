@@ -952,6 +952,12 @@ footer {
   font-weight: 600;
 }
 
+@media screen and (max-width: 640px) {
+  .socialtext li {
+    font-size: 0.8rem;
+  }
+}
+
 .socialtext a:hover {
   text-decoration: 2px underline;
 }
