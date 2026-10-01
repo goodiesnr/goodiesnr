@@ -8,7 +8,7 @@ export const projects = [
     title: "Contactbin",
     domain: "docbasin-f.vercel.app",
     link: "https://docbasin-f.vercel.app",
-    desc: "A backend-as-a-service that lets users handle HTML form submissions without standing up their own server.",
+    desc: "A backend-as-a-service that lets users handle HTML form submissions without setting up their own server.",
   },
   {
     title: "QRanytin",
