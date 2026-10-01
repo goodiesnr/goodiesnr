@@ -37,7 +37,7 @@ export const projects = [
 ];
 
 const images = [
-  { id: 1, src: img1, alt: "roofing websites", link: 'https://apluspainting.vercel.app', },
+  { id: 1, src: img1, alt: "roofing websites", link: 'https://yourwebsitebygoodie.vercel.app', },
   { id: 2, src: img2, alt: "painting websites", link: 'https://apluspainting.vercel.app', },
 ];
 
